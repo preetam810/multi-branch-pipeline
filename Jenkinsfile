@@ -5,7 +5,7 @@ pipeline{
         stage('Build'){
             steps{
                echo "Build" 
-               echo "env.BRANCH_NAME" 
+               echo "$BRANCH_NAME" 
             }
             
         }
